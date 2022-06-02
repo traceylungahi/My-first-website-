@@ -1,0 +1,50 @@
+body {
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+}
+.navContainer{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.navInfo {
+    display: flex;
+    align-items: center;
+}
+.navInfo li, li {
+    list-style: none;
+    margin-right: 10px;
+}
+.landingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.landingInfo{
+    flex: 1;
+}
+.landingImg{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    width: 400px;
+}
+.bigHeading{
+    font-size: 70px;
+    font-weight: 800;
+}
+.landingText{
+    width: 70%;
+    line-height: 1.5;
+}
+
